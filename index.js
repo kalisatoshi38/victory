@@ -1,13 +1,12 @@
-
+let navLinks=document.getElementById("navLinks")
+function showMenu(){
+    navLinks.style.right="0";
+}
+function hideMenu(){
+    navLinks.style.right="-200px";
+}
 	
-		var navLinks =document.getElementById("navLinks");
-		function showMenu(){
-			navLinks.style.right="0";
-		}
-		function hideMenu(){
-			navLinks.style.right="-200px";
-		}
-
+	
 	
 
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxQ5VCCyNGjKPycXYkS0GaLMCZ6ajD8Ab7FXVW2SjW1a3ea10SzkU7m0_Ki7EcUBM9Hrg/exec'
